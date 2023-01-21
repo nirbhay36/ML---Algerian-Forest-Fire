@@ -1,14 +1,18 @@
 Forest Fire Prediction - Nirbhay Ahir
 
 A brief description of what this project is all about.
+
 Forest Fire Prediction is a Supervised Machine learning problem statements. 
 Using Regression and Classification Algorithm I detected the future fires with temperture as dependent variable based on certain Weather report.
 
 Library Used in this Project
+
 Data Pre-Processing
+
 Numpy, Pandas, Matplotlib, Seaborn
 
 Model Building
+
 Sklearn, statsmodels
 
 Data Set Information:
@@ -21,6 +25,7 @@ The dataset includes 11 attribues and 1 output attribue (class)
 The 244 instances have been classified into fire (138 classes) and not fire (106 classes) classes.
 
 Attribute Information:
+
 1. Date : (DD/MM/YYYY) Day, month ('june' to 'september'), year (2012)
 Weather data observations
 2. Temp : temperature noon (temperature max) in Celsius degrees: 22 to 42
@@ -37,6 +42,7 @@ FWI Components
 12. Classes: two classes, namely Fire and not Fire
 
 Steps
+
 1.Data Collection
 2.Data Pre-Processing
 3.Exploratory Data Analysis
@@ -45,9 +51,11 @@ Steps
 6.Model Building
 
 Model Used:
+
 1.Linear regression
 2.Lasso Regression
 3.Ridge Regression
 
 Model Selection
+
 For Regression r2_score metrics is used to select best model.
